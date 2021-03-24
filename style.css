@@ -1,0 +1,114 @@
+*{
+    margin:0;
+}
+
+/* Desktop */
+/* Background */
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#circle-top{
+    position: absolute;
+    top: -75%;
+    left: -20%;
+}
+
+#circle-bottom{ 
+    position: absolute;
+    bottom: -90%;
+    right: -15%;
+}
+
+/* Profile Card */
+
+#profile-card{
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    width: 350px;
+    height: 376.6px;
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    right: 50%;
+    background-color: white;
+    
+}
+
+#profile-picture-container{
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    right: 50%;
+}
+
+#profile-picture{
+    border: 6px solid white;
+    border-radius: 50%;
+}
+
+#profile-info{
+    position: absolute;
+    top: 59.1%;
+    left: 38%;
+    right: 50%;
+    width: 150px;
+}
+
+#profile-container{
+    border-bottom: 1px solid #bbb;
+    height: 147px;
+}
+
+#name, #age{
+    display: inline-block;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#name{
+    font-weight: bold;
+}
+
+#age{
+    margin-left: 5px;
+}
+
+#location{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#followers, #likes, #photos{
+    display: inline-block;
+    margin-left: 40px;
+    text-align: center;
+    margin-top: 23px;
+} 
+
+#followers-name, #likes-name, #photos-name, #age, #location{
+    margin-top: 5px;
+    color: hsl(0, 0%, 59%);
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+#followers-stats, #likes-stats, #photos-stats{
+    font-weight: bold;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;    
+}
+
+/* Mobile */
+@media only screen and (max-width: 1000px){
+    #profile-card{
+        left: 30.5%;
+        right: 50%;
+        background-color: white;          
+}

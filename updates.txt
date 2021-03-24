@@ -1,0 +1,2 @@
+let svg in card be part of the card
+svg in background match with svg in card
